@@ -1,0 +1,56 @@
+{
+  "Cliente": {
+    "id1": {
+      "Apellido": "Yat",
+      "Correo": "edixol8@gmail.com",
+      "Direccion": "Cahabon",
+      "Nombre": "Jadiel",
+      "Telefono": "5079 2026"
+    },
+    "id2": {
+      "Apellido": "Requena",
+      "Correo": "gersonrequena69@gmail.com",
+      "Direccion": "San Pablo",
+      "Nombre": "Gerson",
+      "Telefono": "4572 0942"
+    },
+    "id3": {
+      "Apellido": "Ponce",
+      "Correo": "christianponce490@gmail.com",
+      "Direccion": "Barrio Chajsaquil",
+      "Nombre": "Christian",
+      "Telefono": "3626 6161"
+    }
+  },
+  "Cliente-Evento": {
+    "idCliEnven3": {
+      "idCliente": "id3",
+      "idEvento": "idEvento3"
+    },
+    "idCliEven1": {
+      "idCliente": "id1",
+      "idEvento": "idEbvento1"
+    },
+    "idCliEven2": {
+      "idCiente": "id1",
+      "idEvento": "idEvento2"
+    }
+  },
+  "Evento": {
+    "idEbvento1": {
+      "Descripcion": "Salon Garcia",
+      "Nombre": "Cumpleaños",
+      "Precio": 550
+    },
+    "idEvento2": {
+      "Descripcion": "Aire libre",
+      "Nombre": "Fiesta de retiro",
+      "Precio": 725
+    },
+    "idEvento3": {
+      "Descripcion": "Cerrado",
+      "Nombre": "Bautiso",
+      "Precio": 680
+    }
+  }
+}
