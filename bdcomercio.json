@@ -1,0 +1,56 @@
+{
+  "tablas": {
+    "clientes": {
+      "campos": {
+        "correo": "martillonegro69@gmail.com",
+        "direccion": "campur",
+        "idcliente": 1,
+        "nombre": "Edi",
+        "telefono": "4576 4611"
+      }
+    },
+    "detalle-orden": {
+      "campos": {
+        "cantidad": 2,
+        "idDetalleOrd": 1,
+        "idorden": 1,
+        "idproducto": 1,
+        "precio unitario": 19.5
+      }
+    },
+    "factura": {
+      "campos": {
+        "fecha": "09/11/2023",
+        "idfactura": 1,
+        "idorden": 1,
+        "total": 49.9
+      }
+    },
+    "ordenes": {
+      "campos": {
+        "fecha": "09/11/2023",
+        "idcliente": 1,
+        "idorden": 1,
+        "total": 45.9
+      }
+    },
+    "productos": {
+      "campos": {
+        "descripcion": "gaseosa",
+        "idproducto": 1,
+        "nombre": "Coca",
+        "precio": 19.5,
+        "stock": 25
+      }
+    },
+    "proveedor": {
+      "campos": {
+        "coreo": "nelsonpop12@gmail.com",
+        "direccion": "chaimal",
+        "idproveedor": 1,
+        "nombre": "nelson",
+        "telefono": "5402 5408"
+      }
+    }
+  }
+}
